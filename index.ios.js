@@ -70,14 +70,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'black'
   },
-  preview: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: Dimensions.get('window').width,
-    width: Dimensions.get('window').width
-  },
   cameraContainer: {
-    height: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
     width: Dimensions.get('window').width,
     backgroundColor: 'salmon'
   }
